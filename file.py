@@ -59,3 +59,11 @@ Text File Mode Options:
     `a+` open for appending then reading, it won't overide existing data.
 """
 # NOTE: Binary File modes are same as Text file modes, just we need to add `b` at the end for example: rb, wb, xb, ab, etc
+
+
+#  Check File where it exits or not 
+
+import os 
+
+check_file = os.path.isfile('student.txt')
+print(check_file)
