@@ -61,7 +61,7 @@ Text File Mode Options:
 # NOTE: Binary File modes are same as Text file modes, just we need to add `b` at the end for example: rb, wb, xb, ab, etc
 
 
-#  Check File where it exits or not 
+#  Check File whether it exits or not 
 
 import os 
 
