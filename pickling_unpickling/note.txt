@@ -1,0 +1,16 @@
+Pickling and Un-Pickling is same as serialization and De-Serialization this is used to change the format of the files,
+In Python, `dump` and `load` are two methods provided by the `pickle` module that allow you to serialize and deserialize Python objects,
+respectively. 
+
+
+`dump` method is used to convert a Python object into a stream of bytes that can be written to a file or transmitted over a network. 
+It takes two arguments: the first one is the Python object you want to serialize, and the second one is the file-like object where you want
+ to write the serialized data. The serialized data can later be retrieved using the `load` method.
+
+
+`load` method is used to deserialize the data that was previously serialized using the `dump` method. It takes a single argument, 
+which is the file-like object that contains the serialized data. It reads the serialized data from the file and converts it back into a 
+Python object.
+
+So, in summary, the main difference between `dump` and `load` methods is that `dump` serializes a Python object and writes it to a file or stream, 
+while `load` reads the serialized data from a file or stream and converts it back into a Python object.
